@@ -117,7 +117,7 @@ export default function Loginpage() {
                   }}
                   type="password"
                 ></input>
-                {errors.password && errors.password.message}
+                {/* {errors.password && errors.password.message} */}
               </div>
             </div>
             {/* <h5>Confirm Password</h5> */}
@@ -145,7 +145,6 @@ export default function Loginpage() {
               <Link to="/AdminLogin">Admin Sign In</Link>
             </span>
             <br />
-            <p style={{ color: "lightgray" }}>Made by Souvik Das in 2021</p>
           </form>
         </div>
       </div>

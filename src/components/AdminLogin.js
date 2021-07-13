@@ -108,7 +108,7 @@ export default function AdminLogin() {
                   }}
                   type="password"
                 ></input>
-                {errors.password && errors.password.message}
+                {/* {errors.password && errors.password.message} */}
               </div>
             </div>
 

@@ -49,7 +49,7 @@ export default function Register() {
 
     console.log(form_data)
     authAxios
-      .post("/aptusers/add", form_data)
+      .post("/api/v2/users/add", form_data)
       .then((res) => {
         if (res.data) {
 
@@ -66,9 +66,6 @@ export default function Register() {
       });
   };
 
-  
-   
-  
   return (
     <div>
     <video src='/videos/eduvid2.mp4' autoPlay loop muted style={{width:'100%',height:'auto'}}/>
@@ -116,23 +113,23 @@ export default function Register() {
           </div>
           </div>
                    
-          {/* <div class="indv">
+          <div class="indv">
           <div class="input-group">
           <span class="input-group-addon"><i class="fa fa-lock fa"  aria-hidden="true"></i></span>
           <input
             placeholder="Password"
             name="password"
             class="form-control"
-            // defaultValue={password}
+            defaultValue={password}
             type="password"
             required
             onChange={(event) => {
               setPassword(event.target.value);
             }}
           />
-          {errors.password && errors.password.message}
+          {/* {errors.password && errors.password.message} */}
           </div>
-          </div>  */}
+          </div> 
      
           <br></br>
           <div class="col-12">

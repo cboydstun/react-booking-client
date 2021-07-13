@@ -99,7 +99,7 @@ export default function AdminRegister() {
           </div>
           </div>
                    
-          {/* <div class="indv">
+          <div class="indv">
           <div class="input-group">
           <span class="input-group-addon"><i class="fa fa-lock fa"  aria-hidden="true"></i></span>
           <input
@@ -115,9 +115,9 @@ export default function AdminRegister() {
            
             type="password"
           ></input>
-          {errors.password && errors.password.message}
+          {/* {errors.password && errors.password.message} */}
           </div>
-          </div> */}
+          </div>
           {/* <h5>Confirm Password</h5> */}
 
           <div class="indv">
